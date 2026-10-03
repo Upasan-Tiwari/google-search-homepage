@@ -98,7 +98,7 @@ main .heading h1{
 
 main .searchbar {
     margin-top: 25px;
-    padding: 2px 6px 2px 16px;
+    padding: 3px 1px 3px 5px;
     background-color: #393b42;
     width: 700px;
     display: flex;
@@ -110,7 +110,13 @@ main .searchbar {
 .plusicon {
     width: fit-content;
     font-size: larger;
-    padding: 2px 0px 0px 2px;
+    padding: 9px 12px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.plusicon:hover {
+    background-color: #45474c;
 }
 
 textarea {
@@ -127,23 +133,26 @@ textarea {
 .mic-icon {
     width: fit-content;
     font-size: x-large;
-    margin-right: 15px;
+    margin-right: 12px;
     padding: 3px 5px 0px 0px;
+    cursor: pointer;
 }
 
 .lens-icon {
     width: fit-content;
     font-size: x-large;
     padding: 3px 20px 0px 0px;
+    cursor: pointer;
 }
 
 .ai-mode {
     background-color: #4f5159;
     color: #fff;
     border: none;
-    font-size: 14px;
+    font-size: 13px;
     border-radius: 100px;
     padding: 10px;
+    cursor: pointer;
 }
 
 
