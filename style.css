@@ -155,18 +155,40 @@ textarea {
     cursor: pointer;
 }
 
+.buttons {
+    height: 58px;
+    padding-top: 28px;
+    width: 688px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.buttons button {
+    width: auto;
+    background-color: #303134;
+    color: #fff;
+    margin: 11px 5px;
+    padding: 10px 16px;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
+.buttons button:hover {
+    border-color: #4f5159;
+}
 
+.language {
+    height: 60px;
+    padding-top: 50px;
+    font-size: smaller;
+}
 
-
-
-
-
-
-
-
-
+.language a {
+    color: rgb(134, 173, 244);
+}
 
 .location {
     width: 100%;
@@ -175,10 +197,6 @@ textarea {
     padding-bottom: 10px;
     font-size: 14px;
 }
-
-
-
-
 
 
 /* FOOTER */
