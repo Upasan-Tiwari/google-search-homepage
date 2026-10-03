@@ -84,7 +84,7 @@ li {
 /* MAIN */
 main {
     width: 100%;
-    height: 1000px;
+    height: 1115px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -168,7 +168,13 @@ textarea {
 
 
 
-
+.location {
+    width: 100%;
+    height: fit-content;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
 
 
 
@@ -178,5 +184,20 @@ textarea {
 /* FOOTER */
 footer {
     width: 100%;
-    height: 50px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px 0px 20px;
+    border-top: 1px solid #4d5156;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+}
+
+footer ul li {
+    padding: 15px;
+    font-size: 14px;
 }
