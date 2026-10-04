@@ -98,7 +98,7 @@ main .heading h1{
 
 main .searchbar {
     margin-top: 25px;
-    padding: 3px 1px 3px 5px;
+    padding: 0px 1px 0px 5px;
     background-color: #393b42;
     width: 700px;
     display: flex;
@@ -121,6 +121,9 @@ main .searchbar {
 
 textarea {
     background-color: #393b42;
+    color: #fff;
+    caret-color: white;
+    font-size: large;
     resize: none;
     border: none;
     outline: none;
@@ -128,6 +131,13 @@ textarea {
     box-shadow: none;
     line-height: 22px;
     width: 470px;
+    min-height: 50px;
+    max-height: 150px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    overflow-x: hidden;
+    field-sizing: content;
+    overflow-y: auto;
 }
 
 .mic-icon {
