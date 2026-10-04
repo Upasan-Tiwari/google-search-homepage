@@ -219,3 +219,7 @@ footer ul li {
     padding: 15px;
     font-size: 14px;
 }
+
+footer ul li:hover {
+    text-decoration: underline;
+}
