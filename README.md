@@ -11,3 +11,17 @@ I have learned **HTML**, **CSS** and **Git & Github**. And now to refine my skil
 5. [Stripe.com (Homepage)]()
 
 ## About Project:
+So in this project which I completed officially on 4th Oct, 2026 I have tried to clone the frontend of [Google](https://www.google.com/). I haven't used any AI to write a code but I did used it for CSS properties like especially for **textarea** to acheive the google textarea which is in the **main** div of my project. 
+
+Here I have used the font that was available at the google site which I downloaded using **'Inspect'** element in the website.
+
+It is very basic website that has: 
+
+- index.html
+- style.css
+- profile.png ( Profile picture )
+- google.woff2 ( Font )
+- README.md  ( This one )
+
+
+##
